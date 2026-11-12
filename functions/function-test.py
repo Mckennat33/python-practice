@@ -19,9 +19,7 @@ def numberGuess():
 numberGuess()
 
 
-# ---- SOLUTION: handles 0 / negatives and letters ----
-# To try it, comment out numberGuess() above and uncomment numberGuessSolution() at the bottom.
-
+# Solution
 def getGuess():
     while True:
         try:
