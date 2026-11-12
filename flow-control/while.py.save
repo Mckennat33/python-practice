@@ -1,0 +1,14 @@
+while True:
+    print("Who are you?")
+    name = input()
+    if name != 'Tom':
+        continue
+    # if name is not tom it asks who are you again
+    print('Hello, Tom. What is the password (It is a fish)')
+    password = input()
+    if password == 'swordfish':
+        break
+    # if password is wrong it goes back to who are you
+print('Access Granted')
+
+
