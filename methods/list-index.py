@@ -19,3 +19,25 @@ print(costco)
 # - if name not in list you will get error
 costco.remove("Phil")
 print(costco)
+
+# sort
+# - on strings it will sort alpha by first letter / not actually alpha 
+numbers = [4, 1, 0, -5, 10, 9, 23]
+numbers.sort()
+print(numbers)
+# you cant put a variable to sort n = numbers.sort()
+# cant sort lists that have number values and strings
+# - Sort true and false
+
+
+import random
+messages = ['It is certain',
+    'It is decidedly so',
+    'Yes definitely',
+    'Reply hazy try again',
+    'Ask again later',
+    'Concentrate and ask again',
+    'My reply is no',
+    'Outlook not so good',
+    'Very doubtful']
+print(messages[random.randint(0, len(messages) - 1)])
